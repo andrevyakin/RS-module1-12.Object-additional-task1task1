@@ -68,6 +68,6 @@ const defender = {
 
 while (true) {
     const result = attacker.attack(defender);
-    if (result > 70 || !result)
+    if (result >= 70 || !result)
         break;
 }
